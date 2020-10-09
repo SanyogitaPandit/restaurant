@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../../images/index.jpg) fixed center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 1em;
+}
+
+header {
+    padding: 2em;    
+}
+
+section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+img {
+    width: 100%;
+    opacity: 0.6;
+}
+
+figure {
+    position: relative;
+}
+
+figure >  h3 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 30%;    
+    margin: auto;    
+}
