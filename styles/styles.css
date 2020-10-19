@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(../../images/index.jpg) fixed center no-repeat;
+    background: url(../images/index.jpg) fixed center no-repeat;
     background-size: cover;
     text-align: center;
     padding: 1em;
