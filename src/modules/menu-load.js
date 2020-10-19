@@ -6,7 +6,7 @@ function loadMenu()
         const logo = document.createElement('figure');    
         menu.appendChild(logo);
         const img = document.createElement('img');
-        img.src = "../images/plate.jpeg";    
+        img.src = "../../dist/images/plate.jpeg";    
         logo.appendChild(img);
         const mText = document.createElement('h3');
         mText.textContent = "MenuItem";
