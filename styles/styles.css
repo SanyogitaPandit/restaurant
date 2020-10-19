@@ -15,6 +15,22 @@ header {
     padding: 2em;    
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em 0;
+}
+
+nav > h2:hover {
+    text-decoration: underline 3px;    
+    cursor: pointer;
+}
+
+.active {
+    text-decoration: underline 3px;    
+}
+
 section {
     width: 100%;
     display: grid;
